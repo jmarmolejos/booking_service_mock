@@ -33,7 +33,7 @@ app.use('/users', users);
 app.use('/bookings', bookings);
 app.use('/reports', reports);
 
-// catch 404 and forward to error handler
+// catch 404 and forward to error handlers
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
